@@ -35,3 +35,11 @@ See individual plugin documentation in the upstream repository.
 - [check-tcp](./check-tcp/README.md)
 - [check-uptime](./check-uptime/README.md)
 - [check-windows-eventlog](./check-windows-eventlog/README.md)
+
+## Release build
+
+To build the release asset, provide an override version on the commandline:
+
+```sh
+VERSION=0.0.1 make
+```
